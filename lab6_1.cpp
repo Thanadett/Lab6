@@ -3,15 +3,15 @@ using namespace std;
 
 int main()
 {
-    int integer;
+    int x;
 
     cout << "Enter an integer: ";
-    cin >> integer;
+    cin >> x;
 
     int even = 0, odd = 0;
-    while (integer != 0)
+    while (x != 0)
     {
-        if (integer % 2 == 0)
+        if (x % 2 == 0)
         {
             even += 1;
         }
@@ -20,7 +20,7 @@ int main()
             odd += 1;
         }
         cout << "Enter an integer: ";
-        cin >> integer;
+        cin >> x;
     }
     cout << "#Even numbers = " << even << endl;
     cout << "#Odd numbers = " << odd;
